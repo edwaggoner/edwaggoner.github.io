@@ -42,6 +42,12 @@ h1 {
 	color: bisque;
 }
 
+.col{
+	width: calc(25% - 2rem);
+	margin: 4rem;
+	cursor: crosshair;
+  }
+
 .topline{
 	/* display: flex; */
 	flex-wrap: wrap;
