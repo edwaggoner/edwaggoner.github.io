@@ -5,7 +5,14 @@ nav ul {
 	padding: 0;
 	list-style-type: none;
 	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+
 }
 
 nav ul li {
@@ -38,73 +45,16 @@ body{
 	background-color: rgb(195, 186, 178);
 }
 
-h1 {
-	color: bisque;
-}
-
 .col{
 	width: calc(25% - 2rem);
-	margin: 4rem;
+	margin: 3.5rem;
 	cursor: crosshair;
   }
 
-.topline{
-	/* display: flex; */
-	flex-wrap: wrap;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--ms-flex-wrap: wrap;
-	flex-wrap: wrap;
--webkit-box-pack: center;
-	-ms-flex-pack: center;
-		justify-content: center;
-}
-
 #welcomebox {
 	display: block;
-	width: 800px;
+	width: 700px;
 	height: 175px;
 	padding: 20px;
-	border: 2px solid gray;
-	margin: 10vh auto;
-	text-shadow: #000;
-}
-
-#welcometext p {
-	padding-top: 10px;
-	font-family: 'Source Serif 4', serif;
-	font-size: 32px;
-	font-weight: 600;
-	color:#596a72;
-	letter-spacing: 1px;
-	text-align: center;
-	z-index: 1;
-}
-
-#professionalrole p {
-	font-family: 'Source Serif 4', serif;
-	font-size: 32px;
-	font-weight: 700;
-	color: rgb(5, 94, 5);
-	text-align: center;
-	letter-spacing: 1px;
-	font-style: italic;
-	z-index: 1;
-}
-
-#frontpagepic img {
-	top: 425px;
-    /* width: 15rem;
-    height: 15rem; */
-    /* max-width: 40vmin;
-    max-height: 40vmin; */
-    position: fixed;
-	flex-wrap: wrap;
-    opacity: .7;
-    border-radius: 60%;
-    margin: -20rem 0 -10rem 5vw;
-    -webkit-filter: drop-shadow(2px 2px 2px black);
-    filter: drop-shadow(2px 2px 2px black);
-    box-shadow: none;
+	margin: 7vh auto;
 }
