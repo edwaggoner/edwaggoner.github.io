@@ -17,6 +17,17 @@
 			perspective: 1000px;
 }
 
+.btn {
+	background-color: rgb(22, 232, 22);
+	color: black;
+}
+
+.btn:hover {
+	background-color: black;
+	color: rgb(22, 232, 22);
+	font-weight: 700;
+}
+
 .front,
 .back{
 	background-size: cover;
