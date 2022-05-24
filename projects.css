@@ -44,6 +44,7 @@
 	min-height: 480px;
 	height: auto;
 	border-radius: 10px;
+	/* color of title text on card front, above dividing line */
 	color: rgb(217, 217, 217);
 	font-size: 1.5rem;
 }
@@ -61,14 +62,18 @@
 	-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 	text-align: center;
+	/* height of card back (but not height of text display */
 	min-height: 480px;
 	height: auto;
 	border-radius: 10px;
+	/* text on card back, except the buttons */
 	color: rgb(69, 63, 63);
 	font-size: 1.5rem;
+	font-family: 'Montserrat';
 }
 
 .back{
+	/* color of gradient on card back */
 	background: #cedce7;
 	background: -webkit-linear-gradient(45deg,  #ffffff 0%,#d5c8bd 100%);
 	background: -o-linear-gradient(45deg,  #ffffff 0%,#d5c8bd 100%);
@@ -109,6 +114,7 @@ position: absolute;
 .inner{
 	-webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
 			transform: translateY(-50%) translateZ(60px) scale(0.94);
+	/* how far the box's top margin edge is offset below the top edge of the box's container block  */
 	top: 50%;
 	position: absolute;
 	left: 0;
@@ -151,12 +157,15 @@ position: absolute;
 }
 
 .front .inner p{
-font-size: 3rem;
+/* if you want to separately control the title text on card front, above dividing line, this is where to do it */
+font-family: 'Montserrat';
+font-size: 2.5rem;
 margin-bottom: 2rem;
 position: relative;
 }
 
 .front .inner p:after{
+/* dividing line on card front */
 content: '';
 width: 7rem;
 height: 2px;
@@ -170,6 +179,7 @@ bottom: -.75rem;
 }
 
 .front .inner span{
+/* subtitle text on card front */
 color: rgb(216, 216, 216);
 font-family: 'Montserrat';
 font-weight: 300;
