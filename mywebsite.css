@@ -61,12 +61,17 @@ body{
 
 #welcomebox p {
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 }
 
 a {
 	text-decoration: none;
 	cursor: grab;
+}
+
+.edphoto {
+	display: flex;
+	justify-content: center;
 }
 
 .technologies p {
