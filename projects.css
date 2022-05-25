@@ -11,10 +11,13 @@
 	max-width: 80rem;
   }
 
-/* .cols {
-	display: flex;
-	justify-content: space-evenly;
-} */
+.projectdescription p {
+	font-size: 20px;
+}
+
+.highlight {
+	color: whitesmoke;
+}
 
 .card-description-unit {
 	display: flex;
@@ -22,9 +25,9 @@
 }
 
 .col{
-width: calc(35% - 2rem);
-margin: 4rem;
-cursor: crosshair;
+	width: calc(35% - 2rem);
+	margin: 4rem;
+	cursor: crosshair;
 }
 
 .container{
@@ -62,7 +65,9 @@ cursor: crosshair;
 	height: auto;
 	border-radius: 10px;
 	/* color of title text on card front, above dividing line */
-	color: rgb(217, 217, 217);
+	color: rgb(216, 216, 216);
+	/* color: #ffffff; */
+	/* color: whitesmoke; */
 	font-size: 1.5rem;
 }
 
@@ -187,7 +192,7 @@ content: '';
 width: 7rem;
 height: 2px;
 position: absolute;
-background: #e9e9e9;
+background: rgb(216, 216, 216);
 display: block;
 left: 0;
 right: 0;

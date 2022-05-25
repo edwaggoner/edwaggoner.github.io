@@ -4,9 +4,15 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<!-- My CSS sheets -->
 	<link rel="stylesheet" href="mywebsite.css">
 	<link rel="stylesheet" href="projects.css">
 	<title>Document</title>
@@ -18,20 +24,18 @@
 	<nav>
 		<ul>
 			<li><a href="index.html">Welcome</a></li>
-			<li><a href="about.html">About</a></li>
 			<li><a href="projects.html">Projects</a></li>
-			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 	<div id="edphoto">
-		<img src="./assets/ed10.18cropped200.jpg">
+		<img src="./images/ed10.18cropped200.jpg">
 	</div>
 	<div class="wrapper">
 		<div class="cols">
 			<div class="col" ontouchstart="this.classList.toggle('hover');">
 				<div class="container">
-					<div class="front" style="background-image: url(./assets/real-time-bus-tracker1.png)">
+					<div class="front" style="background-image: url(./images/real-time-bus-tracker1.png)">
 						<div class="inner">
 						<p>Real-Time Boston Bus Tracker</p>
 						<span>Catch that Boston Bus!</span>
@@ -47,12 +51,12 @@
 				</div>
 			</div>
 			<div class="projectdescription">
-				<p>Here I pulled maps from mapbox.com and real-time data from the MBTA (Massachusetts Bay Transportation Authority) to show the location of one of Boston's Route 1 buses. I did this using an access token and async functions in JavaScript. The user decides whether and when to start tracking the bus by clicking on a button. The tracking marker shows on the map immediately after that click. But my code fetches the real-time location of the bus prior to rendering the map and prior to the user's decision, in order to pre-center the map on the bus's exact current coordinates. This avoids any unnecessary movement of the map, providing the user with a smooth visual experience.</p>
+				<p>Here I pulled maps from mapbox.com and <span class="highlight">real-time data</span> from the MBTA (Massachusetts Bay Transportation Authority) to show the location of one of Boston's Route 1 buses. I did this using an <span class="highlight">access token</span> and <span class="highlight">async functions</span> in <span class="highlight">Javascript.</span> The user decides whether and when to start tracking the bus by clicking on a button. The tracking marker shows on the map immediately after that click. But my code fetches the real-time location of the bus prior to <span class="highlight">rendering the map</span> and prior to the user's decision, in order to pre-center the map on the bus's exact current coordinates. This avoids any unnecessary movement of the map, providing the user with a smooth visual experience.</p>
 			</div>
 
 			<div class="col" ontouchstart="this.classList.toggle('hover');">
 				<div class="container">
-					<div class="front" style="background-image: url(./assets/moving-eyes1.png)">
+					<div class="front" style="background-image: url(./images/moving-eyes1.png)">
 						<div class="inner">
 							<p>Responsive Eyes</p>
 							<span>Everybody likes to be noticed.</span>
@@ -68,11 +72,11 @@
 				</div>
 			</div>
 			<div class="projectdescription">
-				<p>The starter code for this bootcamp project created one eye. I added a second eye. (Although, a cyclops version could also be fun.) I used JavaScript to give shape and position to the eyes and pupils. The benefit of this exercise was learning how to tie the position of the pupils to the position of the user's cursor and how--through the user's mouse-- to enable the user to control the direction of the gaze. Well-articulated CSS properties are key to depicting the eyes' movement.</p>
+				<p>The starter code for this bootcamp project created one eye. I added a second eye. (Although, a cyclops version could also be fun.) I used <span class="highlight">JavaScript</span> to give <span class="highlight">positions</span> to the pupils of the eyes. The benefit of this exercise was learning how to tie the position of the pupils to the position of the user's cursor and how--through the <span class="highlight">user's mouse</span> -- to enable the user to <span class="highlight">control the direction</span> of the gaze. Well-articulated <span class="highlight">CSS</span> properties are key to depicting the eyes' movement.</p>
 			</div>
 			<div class="col" ontouchstart="this.classList.toggle('hover');">
 				<div class="container">
-					<div class="front" style="background-image: url(./assets/Pac-men-thumbnail3.png)">
+					<div class="front" style="background-image: url(./images/Pac-men-thumbnail3.png)">
 						<div class="inner">
 							<p>Pac-Men Factory</p>
 							<span>My first project.</span>
@@ -88,7 +92,7 @@
 				</div>
 			</div>
 			<div class="projectdescription">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores similique dolore quae? Error, minima voluptas iusto ullam delectus, ipsum aperiam nostrum, assumenda ad soluta dolore nobis repellendus nulla culpa tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, amet suscipit laborum ratione in aliquid, nostrum atque quis expedita voluptatibus officia vel sunt quasi qui cumque porro odit eveniet! Ipsa.</p>
+				<p>The coin-operated Pac-Man video game rocketed to fame soon after its 1980 debut. The code I'm presenting here uses the Pac-Man character to <span class="highlight">explore the DOM.</span> Building on starter code from MIT, I wrote <span class="highlight">JavaScript</span> functions to set an initial, <span class="highlight">randomized position and velocity</span> for each of our iconic yellow friends on the screen and to ensure that he <span class="highlight">bounces from walls</span> upon impact. The chomping motion is rendered by toggling between two images--one with mouth open and the other with mouth shut. Extra clicks on the "Add PacMan" button <span class="highlight">add more PacMen</span> to the scene.</p>
 			</div>
 	   </div>
 	</div>
