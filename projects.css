@@ -1,14 +1,31 @@
+
+#edphoto {
+	display: flex;
+	justify-content: center;
+	border-radius: 90%;
+}
+
 .wrapper{
 	width: 90%;
 	margin: auto;
 	max-width: 80rem;
   }
 
-  .col{
-	width: calc(35% - 2rem);
-	margin: 4rem;
-	cursor: crosshair;
-  }
+/* .cols {
+	display: flex;
+	justify-content: space-evenly;
+} */
+
+.card-description-unit {
+	display: flex;
+	justify-content: left;
+}
+
+.col{
+width: calc(35% - 2rem);
+margin: 4rem;
+cursor: crosshair;
+}
 
 .container{
 	-webkit-transform-style: preserve-3d;
